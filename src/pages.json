@@ -1,0 +1,491 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "ZGGUI-demo",
+				"mp-alipay": {
+					"defaultTitle": ""
+				}
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "basic-pages",
+			"pages": [
+				{
+					"path": "color/index",
+					"style": {
+						"navigationBarTitleText": "颜色"
+					}
+				},
+				{
+					"path": "flex/index",
+					"style": {
+						"navigationBarTitleText": "Flex布局"
+					}
+				},
+				{
+					"path": "icon/index",
+					"style": {
+						"navigationBarTitleText": "图标"
+					}
+				},
+				{
+					"path": "title/index",
+					"style": {
+						"navigationBarTitleText": "标题"
+					}
+				},
+				{
+					"path": "button/index",
+					"style": {
+						"navigationBarTitleText": "按钮"
+					}
+				},
+				{
+					"path": "tag/index",
+					"style": {
+						"navigationBarTitleText": "标签"
+					}
+				},
+				{
+					"path": "badge/index",
+					"style": {
+						"navigationBarTitleText": "徽标"
+					}
+				},
+				{
+					"path": "avatar/index",
+					"style": {
+						"navigationBarTitleText": "头像"
+					}
+				},
+				{
+					"path": "footer/index",
+					"style": {
+						"navigationBarTitleText": "页脚"
+					}
+				},
+			]
+		},
+		{
+			"root": "components-pages",
+			"pages": [
+				{
+					"path": "z-text/index",
+					"style": {
+						"navigationBarTitleText": "文本"
+					}
+				},
+				{
+					"path": "z-image/index",
+					"style": {
+						"navigationBarTitleText": "图片"
+					}
+				},
+				{
+					"path": "z-loading-icon/index",
+					"style": {
+						"navigationBarTitleText": "加载图标"
+					}
+				},
+				{
+					"path": "z-line/index",
+					"style": {
+						"navigationBarTitleText": "线条"
+					}
+				},
+				{
+					"path": "z-cell/index",
+					"style": {
+						"navigationBarTitleText": "单元格"
+					}
+				},
+				{
+					"path": "z-sticky/index",
+					"style": {
+						"navigationBarTitleText": "吸顶"
+					}
+				},
+				{
+					"path": "z-collapse/index",
+					"style": {
+						"navigationBarTitleText": "折叠面板"
+					}
+				},
+				{
+					"path": "z-water-fall/index",
+					"style": {
+						"navigationBarTitleText": "瀑布流"
+					}
+				},
+				{
+					"path": "z-calc-water-fall/index",
+					"style": {
+						"navigationBarTitleText": "计算瀑布流"
+					}
+				},
+				{
+					"path": "z-normal-water-fall/index",
+					"style": {
+						"navigationBarTitleText": "普通瀑布流"
+					}
+				},
+				{
+					"path": "z-subsection/index",
+					"style": {
+						"navigationBarTitleText": "分段器"
+					}
+				},
+				{
+					"path": "z-search-box/index",
+					"style": {
+						"navigationBarTitleText": "搜索框"
+					}
+				},
+				{
+					"path": "z-switch-tab/index",
+					"style": {
+						"navigationBarTitleText": "选项卡切换"
+					}
+				},
+				{
+					"path": "z-scroll-list/index",
+					"style": {
+						"navigationBarTitleText": "横向滚动"
+					}
+				},
+				{
+					"path": "z-divider/index",
+					"style": {
+						"navigationBarTitleText": "分割线"
+					}
+				},
+				{
+					"path": "z-no-network/index",
+					"style": {
+						"navigationBarTitleText": "无网络提示"
+					}
+				},
+				{
+					"path": "z-popup/index",
+					"style": {
+						"navigationBarTitleText": "弹出框"
+					}
+				},
+				{
+					"path": "z-modal/index",
+					"style": {
+						"navigationBarTitleText": "模态框"
+					}
+				},
+				{
+					"path": "z-notify/index",
+					"style": {
+						"navigationBarTitleText": "消息通知"
+					}
+				},
+				{
+					"path": "z-notice-bar/index",
+					"style": {
+						"navigationBarTitleText": "通知栏"
+					}
+				},
+				{
+					"path": "z-action-sheet/index",
+					"style": {
+						"navigationBarTitleText": "操作菜单"
+					}
+				},
+				{
+					"path": "z-bubble-box/index",
+					"style": {
+						"navigationBarTitleText": "气泡弹框"
+					}
+				},
+				{
+					"path": "z-popup-bar/index",
+					"style": {
+						"navigationBarTitleText": "popup 操作栏"
+					}
+				},
+				{
+					"path": "z-overlay/index",
+					"style": {
+						"navigationBarTitleText": "遮罩层"
+					}
+				},
+				{
+					"path": "z-swipe-action/index",
+					"style": {
+						"navigationBarTitleText": "滑动菜单"
+					}
+				},
+				{
+					"path": "z-load-more/index",
+					"style": {
+						"navigationBarTitleText": "加载更多"
+					}
+				},
+				{
+					"path": "z-empty/index",
+					"style": {
+						"navigationBarTitleText": "空白页"
+					}
+				},
+				{
+					"path": "z-loading-page/index",
+					"style": {
+						"navigationBarTitleText": "加载页"
+					}
+				},
+				{
+					"path": "z-navbar/index",
+					"style": {
+						"navigationBarTitleText": "顶部导航栏"
+					}
+				},
+				{
+					"path": "z-tabbar/index",
+					"style": {
+						"navigationBarTitleText": "底部导航栏"
+					}
+				},
+				{
+					"path": "z-tabs/index",
+					"style": {
+						"navigationBarTitleText": "标签栏"
+					}
+				},
+				{
+					"path": "z-steps/index",
+					"style": {
+						"navigationBarTitleText": "步骤条"
+					}
+				},
+				{
+					"path": "z-index-list/index",
+					"style": {
+						"navigationBarTitleText": "索引列表"
+					}
+				},
+				{
+					"path": "z-index-list/base-index-list",
+					"style": {
+						"navigationBarTitleText": "默认索引列表"
+					}
+				},
+				{
+					"path": "z-index-list/fix-height-index-list",
+					"style": {
+						"navigationBarTitleText": "固定高度列表"
+					}
+				},
+				{
+					"path": "z-index-list/hidden-keys-index-list",
+					"style": {
+						"navigationBarTitleText": "隐藏索引列表"
+					}
+				},
+				{
+					"path": "z-drop-down/index",
+					"style": {
+						"navigationBarTitleText": "下拉菜单"
+					}
+				},
+				{
+					"path": "z-back-top/index",
+					"style": {
+						"navigationBarTitleText": "返回顶部"
+					}
+				},
+				{
+					"path": "z-form/index",
+					"style": {
+						"navigationBarTitleText": "表单"
+					}
+				},
+				{
+					"path": "z-input/index",
+					"style": {
+						"navigationBarTitleText": "输入框"
+					}
+				},
+				{
+					"path": "z-number-box/index",
+					"style": {
+						"navigationBarTitleText": "步进器"
+					}
+				},
+				{
+					"path": "z-radio/index",
+					"style": {
+						"navigationBarTitleText": "单选框"
+					}
+				},
+				{
+					"path": "z-checkbox/index",
+					"style": {
+						"navigationBarTitleText": "复选框"
+					}
+				},
+				{
+					"path": "z-switch/index",
+					"style": {
+						"navigationBarTitleText": "Switch开关"
+					}
+				},
+				{
+					"path": "z-slider/index",
+					"style": {
+						"navigationBarTitleText": "滑动条"
+					}
+				},
+				{
+					"path": "z-picker/index",
+					"style": {
+						"navigationBarTitleText": "Picker选择器"
+					}
+				},
+				{
+					"path": "z-date-time-picker/index",
+					"style": {
+						"navigationBarTitleText": "日期时间选择器"
+					}
+				},
+				{
+					"path": "z-region-picker/index",
+					"style": {
+						"navigationBarTitleText": "地区选择器"
+					}
+				},
+				{
+					"path": "z-image-upload/index",
+					"style": {
+						"navigationBarTitleText": "图片上传"
+					}
+				},
+				{
+					"path": "z-rate/index",
+					"style": {
+						"navigationBarTitleText": "评分"
+					}
+				},
+				{
+					"path": "z-calendar/index",
+					"style": {
+						"navigationBarTitleText": "日历"
+					}
+				},
+				{
+					"path": "z-week-calendar/index",
+					"style": {
+						"navigationBarTitleText": "周日历"
+					}
+				},
+				{
+					"path": "z-progress/index",
+					"style": {
+						"navigationBarTitleText": "进度条"
+					}
+				},
+				{
+					"path": "z-count-down/index",
+					"style": {
+						"navigationBarTitleText": "倒计时"
+					}
+				},
+				{
+					"path": "z-count-to/index",
+					"style": {
+						"navigationBarTitleText": "数字跳转"
+					}
+				},
+				{
+					"path": "z-count-scroll/index",
+					"style": {
+						"navigationBarTitleText": "数字滚动"
+					}
+				},
+				{
+					"path": "z-read-more/index",
+					"style": {
+						"navigationBarTitleText": "阅读更多"
+					}
+				},
+				{
+					"path": "z-photo-album/index",
+					"style": {
+						"navigationBarTitleText": "相册"
+					}
+				},
+				{
+					"path": "z-swiper/index",
+					"style": {
+						"navigationBarTitleText": "轮播图"
+					}
+				},
+				{
+					"path": "z-gap/index",
+					"style": {
+						"navigationBarTitleText": "间隔槽"
+					}
+				},
+				{
+					"path": "z-link/index",
+					"style": {
+						"navigationBarTitleText": "超链接"
+					}
+				},
+				{
+					"path": "z-transition/index",
+					"style": {
+						"navigationBarTitleText": "动画"
+					}
+				},
+				{
+					"path": "z-keyboard/index",
+					"style": {
+						"navigationBarTitleText": "软键盘"
+					}
+				},
+				{
+					"path": "z-lazy-load/index",
+					"style": {
+						"navigationBarTitleText": "懒加载"
+					}
+				},
+				{
+					"path": "z-code-input/index",
+					"style": {
+						"navigationBarTitleText": "验证码输入"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ZGGUI-demo演示",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"mp-alipay": {
+			"transparentTitle": "always",
+			"titlePenetrate": "YES",
+			"defaultTitle": "",
+			"titleBarColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"frontColor": "#000000",
+			"allowsBounceVertical": "NO"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"z-(.*)": "zgg-ui/components/z-$1/z-$1.vue",
+		}
+	}
+}
