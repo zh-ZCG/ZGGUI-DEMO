@@ -33,7 +33,7 @@ const radioValue5 = ref('')
       <div class="radio-container">
         <div class="radio-item">
           单选框选中状态:
-          <text class="cgray5">
+          <text class="" style="color: #1a1a1a">
             {{ radioSelectStatus ? '已选中' : '未选中' }}
           </text>
         </div>
@@ -42,7 +42,7 @@ const radioValue5 = ref('')
         </div>
         <div class="radio-item">
           当前选中的值:
-          <text class="cgray5">
+          <text class="" style="color: #1a1a1a">
             {{ userSelectValue || '未选择' }}
           </text>
         </div>

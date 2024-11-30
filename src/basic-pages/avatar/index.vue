@@ -32,7 +32,7 @@ const zAvatarGroupUrlList = ref([
             <z-avatar src="http://192.168.1.15/testapkwgt/mm.png" />
           </div>
           <div class="item">
-            <z-avatar icon="hexin" bgColor="primary" />
+            <z-avatar icon="hexin" color="error" bgColor="primary" />
           </div>
           <div class="item">
             <z-avatar color="success" text="Z"></z-avatar>

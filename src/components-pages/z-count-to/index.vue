@@ -85,8 +85,8 @@ setInterval(() => {
       <div class="count-to-container">
         <div class="count-to-item">
           <z-count-to
-            :start="StartValue"
-            :end="EndValue"
+            :start="startValue"
+            :end="endValue"
             :decimals="2"
             thousandsSeparator=","
             textColor="primary"

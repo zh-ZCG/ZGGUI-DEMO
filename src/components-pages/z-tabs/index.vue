@@ -23,7 +23,7 @@ const tabsData = [
     text: '关注',
     badgeConfig: {
       absolute: true,
-      position: [-10, -10],
+      position: [-5, -10],
       value: 10,
     },
   },
@@ -31,7 +31,7 @@ const tabsData = [
     text: '推荐',
     badgeConfig: {
       absolute: true,
-      position: [-10, -10],
+      position: [-5, -10],
       value: 20,
     },
   },
@@ -39,7 +39,7 @@ const tabsData = [
     text: '热榜',
     badgeConfig: {
       absolute: true,
-      position: [-7, -7],
+      position: [-5, -10],
       dotSize: 5,
       dot: true,
     },
@@ -51,7 +51,7 @@ const tabsData = [
     text: '宠物',
     badgeConfig: {
       absolute: true,
-      position: [-7, -7],
+      position: [-5, -10],
       dot: true,
       dotSize: 5,
     },
