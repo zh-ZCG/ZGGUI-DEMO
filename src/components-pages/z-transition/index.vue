@@ -28,7 +28,6 @@ function showTransition(name: string) {
 }
 
 function unshow() {
-  console.log(456)
   showT.value = false
 }
 </script>

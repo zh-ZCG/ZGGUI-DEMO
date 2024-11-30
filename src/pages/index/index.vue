@@ -64,7 +64,6 @@ const pageStatus = ref(Array.from({ length: tabbarData.length }, () => false))
 
 // 导航切换事件
 const onTabbarChange = (index: string | number) => {
-  console.log(index)
   pageStatus.value.forEach((elem, pageIndex) => {
     if (pageIndex == index) {
       pageStatus.value[index as number] = true
@@ -76,7 +75,6 @@ const onTabbarChange = (index: string | number) => {
     }
   })
   items.value?.[index as number]?.onShow?.()
-  console.log(pageStatus.value)
 }
 
 // pageContainer的样式
