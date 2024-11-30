@@ -30,7 +30,6 @@ const openNormalActionSheet = () => {
       { text: '采购', value: '采购' },
     ],
     cancel: () => {
-      console.log(456)
       uni.showToast({
         title: '您点击了取消按钮',
         icon: 'none',
@@ -38,7 +37,6 @@ const openNormalActionSheet = () => {
       return true
     },
     select: (index: number, value?: string | number) => {
-      console.log(123)
       uni.showToast({
         title: `您选中了: ${index} - ${value}`,
         icon: 'none',
