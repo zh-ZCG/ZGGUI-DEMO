@@ -64,7 +64,7 @@
     "vue": "^3.4.21",
     "vue-i18n": "^9.1.9",
     "vuex": "^4.1.0",
-    "zgg-ui": "^2.0.1"
+    "zgg-ui": "^2.0.2"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.8",
